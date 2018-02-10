@@ -1,10 +1,10 @@
 while True:
 	print("Enter '0' for exit.")
-	ch = input("Enter any character: ")
+	v1= input("Enter any character: ")
 	if ch == '0':
 		break
 	else:
-		if((ch>='a' and ch<='z') or (ch>='A' and ch<='Z')):
-			print(ch, "is an alphabet.\n")
+		if((v1>='a' and v1<='z') or (v1>='A' and v1<='Z')):
+			print(v1, "is an alphabet.\n")
 		else:
-			print(ch, "is not an alphabet.\n")
+			print(v1, "is not an alphabet.\n")
