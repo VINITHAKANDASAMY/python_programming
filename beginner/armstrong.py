@@ -6,6 +6,6 @@ while temp > 0:
    sum+= digit ** 3
    temp//= 10
 if n==sum:
-   print("Armstrong number:yes")
+   print("yes")
 else:
-   print(" not an Armstrong number:no")
+   print("no")
